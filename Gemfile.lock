@@ -63,6 +63,8 @@ GEM
     ffi (1.10.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    heroku_deployment (0.0.13)
+      yui-compressor
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.8.0)
@@ -167,6 +169,7 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
+    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -175,6 +178,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   devise
+  heroku_deployment
   jbuilder (~> 2.0)
   jquery-rails
   pg (= 0.17.1)
