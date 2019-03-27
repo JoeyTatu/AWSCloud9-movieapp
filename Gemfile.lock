@@ -63,6 +63,7 @@ GEM
     ffi (1.10.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    heroku-rake (0.0.2)
     heroku_deployment (0.0.13)
       yui-compressor
     i18n (0.9.5)
@@ -178,6 +179,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   devise
+  heroku-rake
   heroku_deployment
   jbuilder (~> 2.0)
   jquery-rails
